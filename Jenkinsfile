@@ -7,5 +7,6 @@ pipeline {
       sh './gradlew build'
       archiveArtifacts artifacts: 'dist/trainSchedule.zip'
       }
-   }
- }
+    }
+  }
+}
